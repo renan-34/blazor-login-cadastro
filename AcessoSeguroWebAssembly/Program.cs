@@ -1,5 +1,6 @@
 ﻿using AcessoSeguroWebAssembly;
 using AcessoSeguroWebAssembly.Services;
+using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -20,6 +21,9 @@ builder.Services.AddScoped(sp =>
 
 // Registrar o serviço de autenticação
 builder.Services.AddScoped<AuthService>();
+
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddBlazoredLocalStorage();
 
 await builder.Build().RunAsync();
 
