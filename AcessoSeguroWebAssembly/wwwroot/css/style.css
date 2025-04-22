@@ -1,0 +1,109 @@
+﻿:root {
+    /* Cores e variáveis reutilizáveis no projeto */
+    --cor-fundo: #1e1e1e; /* Cor de fundo principal (dark) */
+    --cor-fundo-claro: #2c2c2c; /* Cor de fundo secundária (cards, containers) */
+    --cor-texto: #e0e0e0; /* Cor padrão do texto (cinza claro) */
+    --cor-destaque: #2563eb; /* Cor para botões, links ativos (azul vibrante) */
+    --cor-destaque-hover: #1d4ed8; /* Cor de hover para elementos de destaque */
+    --cor-erro: #ff4d4f; /* Cor para mensagens de erro */
+    --borda: 1px solid #444; /* Borda padrão para inputs */
+    --radius: 0.5rem; /* Raio de borda (arredondamento) */
+    --espacamento: 0.75rem; /* Espaçamento padrão entre elementos */
+    --largura-max: 400px; /* Largura máxima de formulários */
+}
+
+/* Reset de estilos e configuração global do corpo da página */
+body {
+    background-color: var(--cor-fundo); /* Fundo escuro da página */
+    color: var(--cor-texto); /* Cor padrão do texto */
+    font-family: 'Segoe UI', sans-serif; /* Fonte principal */
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove padding padrão */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+}
+
+/* Container principal dos formulários (login, cadastro) */
+.form-container {
+    display: flex; /* Usa flexbox */
+    flex-direction: column; /* Organiza os filhos em coluna */
+    align-items: stretch; /* Estica os elementos para ocupar toda a largura */
+    max-width: var(--largura-max); /* Largura máxima (400px) */
+    margin: 2rem auto; /* Centraliza na tela com margem vertical */
+    padding: var(--espacamento); /* Espaçamento interno */
+    background-color: var(--cor-fundo-claro); /* Cor de fundo do container */
+    border-radius: var(--radius); /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra ao redor do formulário */
+    gap: var(--espacamento); /* Espaçamento entre os elementos internos */
+    width: 100%; /* Ocupa 100% da largura disponível */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+}
+
+/* Labels dos inputs */
+label {
+    font-weight: 600; /* Texto mais forte (negrito leve) */
+    text-align: left; /* Alinha o texto à esquerda */
+    width: 100%; /* Ocupa 100% da largura */
+}
+
+/* Campos de input (Email, Senha, etc) */
+.input {
+    padding: 0.5rem; /* Espaçamento interno */
+    border: 1px solid #444; /* Borda escura */
+    border-radius: var(--radius); /* Cantos arredondados */
+    background-color: #1e1e1e; /* Fundo escuro dos inputs */
+    color: var(--cor-texto); /* Cor do texto */
+    width: 100%; /* Ocupa toda a largura disponível */
+    box-sizing: border-box; /* Garante que padding não ultrapasse largura */
+}
+
+/* Botões de login e cadastro */
+.btn-login,
+.btn-cadastrar {
+    background-color: var(--cor-destaque); /* Fundo azul */
+    color: white; /* Texto branco */
+    padding: 0.5rem; /* Espaçamento interno */
+    border-radius: 0.375rem; /* Cantos arredondados (menor que os inputs) */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Cursor pointer ao passar o mouse */
+    transition: background-color 0.2s ease-in-out; /* Animação suave no hover */
+    width: 100%; /* Ocupa toda a largura do formulário */
+    box-sizing: border-box; /* Considera borda e padding na largura */
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+    /* Estilo de hover para botões */
+    .btn-login:hover,
+    .btn-cadastrar:hover {
+        background-color: var(--cor-destaque-hover); /* Azul mais escuro ao passar o mouse */
+    }
+
+/* Estilo para mensagens de erro */
+.erro {
+    color: var(--cor-erro); /* Vermelho vibrante */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 10px; /* Espaço abaixo da mensagem */
+}
+
+/* Linha com links como "Esqueci a senha" e "Cadastro" */
+.link-row {
+    display: flex; /* Flexbox para colocar os links lado a lado */
+    justify-content: space-between; /* Um à esquerda e outro à direita */
+    align-items: center; /* Alinha verticalmente */
+    margin-top: 1rem; /* Espaço acima da linha */
+    width: 100%; /* Ocupa toda a largura do container */
+    font-size: 0.9rem; /* Texto um pouco menor */
+}
+
+    /* Estilo dos links */
+    .link-row a,
+    .link-row NavLink {
+        color: var(--cor-texto); /* Cor clara (igual ao texto) */
+        text-decoration: underline; /* Sublinhado */
+        transition: color 0.2s ease-in-out; /* Transição suave na cor */
+    }
+
+        /* Hover nos links */
+        .link-row a:hover,
+        .link-row NavLink:hover {
+            color: var(--cor-destaque); /* Azul ao passar o mouse */
+        }

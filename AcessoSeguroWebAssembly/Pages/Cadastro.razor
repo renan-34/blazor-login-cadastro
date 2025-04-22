@@ -1,0 +1,115 @@
+﻿@page "/cadastro" // Define a rota do componente
+
+@using AcessoSeguroWebAssembly.Models // Modelo de dados do cadastro
+@using AcessoSeguroWebAssembly.Services
+@using System.Net.Http.Headers
+
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+
+<h3>Cadastro</h3>
+
+@if (!string.IsNullOrEmpty(erro)) // Exibe mensagens de erro, se houver
+{
+    <div class="erro">@erro</div>
+}
+
+<EditForm Model="usuario" OnValidSubmit="HandleCadastro">
+    @* Validações com base nos atributos do modelo *@
+    <DataAnnotationsValidator />
+    @* Mostra os erros de validação acumulados *@
+    <ValidationSummary />
+
+    <div class="form-container">
+        <label>Nome completo</label>
+        <InputText @bind-Value="usuario.Nome" placeholder="Nome completo" class="input" />
+
+        <label>Email</label>
+        <InputText @bind-Value="usuario.Email" placeholder="Email" class="input" />
+
+        <label>Confirmar Email</label>
+        <InputText @bind-Value="EmailConfirmacao" placeholder="Confirmar Email" class="input" />
+
+        <label>Senha</label>
+        <InputText @bind-Value="usuario.Senha" type="password" placeholder="Senha" class="input" />
+
+        <label>Confirmar Senha</label>
+        <InputText @bind-Value="SenhaConfirmacao" type="password" placeholder="Confirmar Senha" class="input" />
+
+        <label>Foto de Perfil:</label>
+        <InputFile OnChange="HandleFotoSelecionada" class="input" />
+        @if (!string.IsNullOrEmpty(NomeArquivoFoto))
+        {
+            <span>Selecionado: @NomeArquivoFoto</span>
+        }
+
+        <button type="submit" class="btn-login">Cadastrar</button>
+    </div>
+</EditForm>
+
+@code {
+    private UsuarioCadastroDTO usuario = new();
+    private string EmailConfirmacao = string.Empty;
+    private string SenhaConfirmacao = string.Empty;
+    private string? erro;
+    private IBrowserFile? FotoSelecionada;
+    private string? NomeArquivoFoto;
+
+    private void HandleFotoSelecionada(InputFileChangeEventArgs e)
+    {
+        FotoSelecionada = e.File;
+        NomeArquivoFoto = FotoSelecionada.Name;
+    }
+
+    private async Task HandleCadastro()
+    {
+        erro = null;
+
+        try
+        {
+            if (usuario.Email != EmailConfirmacao)
+            {
+                erro = "Os emails não coincidem.";
+                return;
+            }
+
+            if (usuario.Senha != SenhaConfirmacao)
+            {
+                erro = "As senhas não coincidem.";
+                return;
+            }
+
+            var form = new MultipartFormDataContent
+            {
+                { new StringContent(usuario.Nome), "Nome" },
+                { new StringContent(usuario.Email), "Email" },
+                { new StringContent(usuario.Senha), "Senha" }
+            };
+
+            if (FotoSelecionada != null)
+            {
+                var stream = FotoSelecionada.OpenReadStream(maxAllowedSize: 5 * 1024 * 1024);
+                var fileContent = new StreamContent(stream);
+                fileContent.Headers.ContentType = new MediaTypeHeaderValue(FotoSelecionada.ContentType);
+                form.Add(fileContent, "Foto", FotoSelecionada.Name);
+            }
+
+            var response = await Http.PostAsync("https://localhost:7172/api/usuarios/cadastrar", form);
+
+            if (response.IsSuccessStatusCode)
+            {
+                NavigationManager.NavigateTo("/login");
+            }
+            else
+            {
+                var msg = await response.Content.ReadAsStringAsync();
+                erro = $"Erro ao cadastrar. Código: {response.StatusCode} - {msg}";
+            }
+        }
+        catch (Exception ex)
+        {
+            erro = $"Erro inesperado: {ex.Message}";
+        }
+    }
+}

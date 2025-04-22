@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]

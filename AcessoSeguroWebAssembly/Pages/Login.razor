@@ -1,0 +1,86 @@
+﻿@page "/login" // Define a rota para acessar esta página via URL
+
+@using AcessoSeguroWebAssembly.Models     <! -- // Importa os modelos de dados (DTOs)-- >
+@using AcessoSeguroWebAssembly.Services   <! -- // Importa o serviço de autenticação -- >
+
+@inject AuthService AuthService                // Injeta o serviço que realiza o login e gerencia o estado do usuário
+@inject NavigationManager NavigationManager    // Permite navegação entre páginas programaticamente
+
+<!-- Container principal com estilo padronizado escuro -->
+<div class="form-container">
+    <!-- Título do formulário -->
+    <h3 class="form-title">Login</h3>
+
+    <!-- Exibe mensagem de erro se houver -->
+    @if (!string.IsNullOrEmpty(erro))
+    {
+        <div class="text-error">@erro</div>
+    }
+
+    <!-- Formulário de login com validação -->
+    <EditForm Model="loginDto" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator />    <!-- Ativa a validação baseada nos atributos do modelo -->
+        <ValidationSummary />           <!-- Lista todos os erros de validação, se houver -->
+        <!-- Campo de email com ícone -->
+        <div class="input-icon">
+            <i class="oi oi-envelope-closed"></i> <!-- Ícone de email -->
+            <InputText @bind-Value="loginDto.Email"
+                       class="input"
+                       placeholder="Email" />
+        </div>
+
+        <!-- Campo de senha com ícone -->
+        <div class="input-icon">
+            <i class="oi oi-lock-locked"></i> <!-- Ícone de cadeado (senha) -->
+            <InputText @bind-Value="loginDto.Senha"
+                       type="password"
+                       class="input"
+                       placeholder="Senha" />
+        </div>
+
+        <!-- Botão de login -->
+        <button type="submit" class="btn-login">
+            Entrar
+        </button>
+
+        <!-- Links adicionais abaixo do botão -->
+        <div class="link-row">
+            <a href="/esqueci-senha">Esqueci minha senha</a>
+            <NavLink href="/cadastro">
+                <span class="oi oi-plus"></span> Cadastrar
+            </NavLink>
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    // Objeto que representa os dados de login digitados pelo usuário (email e senha)
+    private UsuarioLoginDTO loginDto = new();
+
+    // Mensagem de erro (caso o login falhe)
+    private string? erro;
+
+    // Método chamado ao submeter o formulário com dados válidos
+    private async Task HandleLogin()
+    {
+        var sucesso = await AuthService.LoginAsync(loginDto); // Envia os dados para autenticação
+
+        if (sucesso)
+        {
+            // Se o login for bem-sucedido, redireciona com base no tipo de usuário
+            var tipo = AuthService.UsuarioLogado?.TipoUsuario?.ToLower();
+
+            if (tipo == "admin")
+                NavigationManager.NavigateTo("/admin"); // Redireciona para painel do admin
+            else if (tipo == "usuario")
+                NavigationManager.NavigateTo("/dashboard"); // Redireciona para dashboard do usuário
+            else
+                NavigationManager.NavigateTo("/"); // Redireciona para página inicial por padrão
+        }
+        else
+        {
+            // Se o login falhar, exibe mensagem de erro
+            erro = "Email ou senha inválidos.";
+        }
+    }
+}

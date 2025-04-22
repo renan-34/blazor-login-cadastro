@@ -1,0 +1,599 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\pages\\cadastro.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\pages\\cadastrarusuario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\pages\\cadastrarusuario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\R\\AppData\\Local\\Temp\\.vsdbgsrc\\e0b140ede6ca1ebdedb72f4a0e5c36d78ab2517015f226624049863190864951\\Monitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\R\\AppData\\Local\\Temp\\.vsdbgsrc\\7f988d92f74adc3858f108e90f6756bdbd458bdc1dfe85ac599bdac763b3f931\\AddressBinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\models\\usuariocadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\models\\usuariocadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\models\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\models\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessoseguro\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC5BE3F-BBC3-4B00-A9F8-9D193D6FF078}|AcessoSeguro\\AcessoSeguro.csproj|solutionrelative:acessoseguro\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\models\\usuariocadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\models\\usuariocadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|c:\\users\\r\\source\\repos\\acessoseguro\\acessosegurowebassembly\\acessosegurowebassembly.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F73B2A84-ED99-4357-917C-2C23D8A5E33A}|AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj|solutionrelative:acessosegurowebassembly\\acessosegurowebassembly.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\.gitignore",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\.gitignore",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\.gitignore",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-04-22T16:32:37.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\.gitignore",
+              "RelativeDocumentMoniker": "AcessoSeguro\\.gitignore",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\.gitignore",
+              "RelativeToolTip": "AcessoSeguro\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-04-22T16:30:44.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profile.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Profile.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Pages\\Profile.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Profile.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Pages\\Profile.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T01:33:52.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\App.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\App.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\App.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T01:22:11.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T01:21:43.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AcessoSeguro\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:03:16.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Login.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:14:01.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T12:08:46.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-20T12:09:31.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsuarioCadastroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Models\\UsuarioCadastroDTO.cs",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Models\\UsuarioCadastroDTO.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Models\\UsuarioCadastroDTO.cs",
+              "RelativeToolTip": "AcessoSeguro\\Models\\UsuarioCadastroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:06:28.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "AcessoSeguro\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T12:07:46.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-20T12:12:48.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CadastrarUsuario.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\CadastrarUsuario.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Pages\\CadastrarUsuario.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\CadastrarUsuario.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Pages\\CadastrarUsuario.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T14:42:53.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Program.cs",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Program.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Program.cs",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:58:36.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Components\\Routes.razor",
+              "RelativeToolTip": "AcessoSeguro\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T01:23:39.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cadastro.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Cadastro.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Pages\\Cadastro.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Cadastro.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Pages\\Cadastro.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T20:40:58.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Counter.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:15:05.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\_Imports.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\_Imports.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\_Imports.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T01:46:47.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bootstrap-reboot.css.map",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACSswAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-21T02:11:11.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Home.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T12:19:13.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\wwwroot\\index.html",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-20T12:15:54.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Pages\\Weather.razor",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:15:02.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Monitor.cs",
+              "DocumentMoniker": "C:\\Users\\R\\AppData\\Local\\Temp\\.vsdbgsrc\\e0b140ede6ca1ebdedb72f4a0e5c36d78ab2517015f226624049863190864951\\Monitor.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e0b140ede6ca1ebdedb72f4a0e5c36d78ab2517015f226624049863190864951\\Monitor.cs",
+              "ToolTip": "C:\\Users\\R\\AppData\\Local\\Temp\\.vsdbgsrc\\e0b140ede6ca1ebdedb72f4a0e5c36d78ab2517015f226624049863190864951\\Monitor.cs [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e0b140ede6ca1ebdedb72f4a0e5c36d78ab2517015f226624049863190864951\\Monitor.cs [Somente Leitura]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T02:03:33.483Z",
+              "EditorCaption": " [Somente Leitura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T21:34:25.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "AcessoSeguro\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAD4v1EAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:42:32.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\appsettings.json",
+              "RelativeDocumentMoniker": "AcessoSeguro\\appsettings.json",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\appsettings.json",
+              "RelativeToolTip": "AcessoSeguro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-19T23:05:34.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Program.cs",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Program.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Program.cs",
+              "RelativeToolTip": "AcessoSeguro\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwEAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:58:10.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UsuarioCadastroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Models\\UsuarioCadastroDTO.cs",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Models\\UsuarioCadastroDTO.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Models\\UsuarioCadastroDTO.cs",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Models\\UsuarioCadastroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:07:25.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Services\\TokenService.cs",
+              "RelativeToolTip": "AcessoSeguro\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:03:31.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddressBinder.cs",
+              "DocumentMoniker": "C:\\Users\\R\\AppData\\Local\\Temp\\.vsdbgsrc\\7f988d92f74adc3858f108e90f6756bdbd458bdc1dfe85ac599bdac763b3f931\\AddressBinder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7f988d92f74adc3858f108e90f6756bdbd458bdc1dfe85ac599bdac763b3f931\\AddressBinder.cs",
+              "ToolTip": "C:\\Users\\R\\AppData\\Local\\Temp\\.vsdbgsrc\\7f988d92f74adc3858f108e90f6756bdbd458bdc1dfe85ac599bdac763b3f931\\AddressBinder.cs [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7f988d92f74adc3858f108e90f6756bdbd458bdc1dfe85ac599bdac763b3f931\\AddressBinder.cs [Somente Leitura]",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAD4v7EAAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T01:12:03.467Z",
+              "EditorCaption": " [Somente Leitura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Models\\Usuario.cs",
+              "RelativeToolTip": "AcessoSeguro\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:08:36.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AcessoSeguro\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T21:25:02.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "AcessoSeguro\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAQwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:04:02.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UsuarioLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Models\\UsuarioLoginDTO.cs",
+              "RelativeDocumentMoniker": "AcessoSeguro\\Models\\UsuarioLoginDTO.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguro\\Models\\UsuarioLoginDTO.cs",
+              "RelativeToolTip": "AcessoSeguro\\Models\\UsuarioLoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:08:33.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\Services\\AuthService.cs",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:26:48.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AcessoSeguroWebAssembly",
+              "DocumentMoniker": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj",
+              "RelativeDocumentMoniker": "AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj",
+              "ToolTip": "C:\\Users\\R\\source\\repos\\AcessoSeguro\\AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj",
+              "RelativeToolTip": "AcessoSeguroWebAssembly\\AcessoSeguroWebAssembly.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T20:52:49.824Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
