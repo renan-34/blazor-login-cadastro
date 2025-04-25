@@ -1,6 +1,4 @@
-﻿using AcessoSeguroWebAssembly.Models;
-
-namespace AcessoSeguroWebAssembly.Models
+﻿namespace AcessoSeguroWebAssembly.Models
 {
     public class UsuarioInfo
     {

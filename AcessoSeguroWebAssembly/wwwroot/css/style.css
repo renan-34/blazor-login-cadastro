@@ -107,3 +107,8 @@ label {
         .link-row NavLink:hover {
             color: var(--cor-destaque); /* Azul ao passar o mouse */
         }
+.text-error {
+    color: red;
+    font-family: Arial, sans-serif;
+    /*font-weight: bold;*/
+}

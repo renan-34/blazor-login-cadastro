@@ -1,19 +1,35 @@
 ﻿@inherits LayoutComponentBase
-<div class="page" >
-    <!-- <div class="sidebar" >
-        <NavMenu />
-    </div> -->
-    
+@inject IJSRuntime JS
+@using AcessoSeguroWebAssembly.Models
+@using System.Text.Json
+@using AcessoSeguroWebAssembly.Pages
 
-    <main >
-        
-        <div >
-            <!-- <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a> -->
-          
-        </div>
+<!-- Fragmento de topo -->
+<UsuarioHome Usuario="usuario" />
 
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+<!-- Conteúdo da página -->
+<div class="main-content">
+    @Body
 </div>
+
+@code {
+    private UsuarioDTO? usuario;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var json = await JS.InvokeAsync<string>("localStorage.getItem", "usuario");
+
+        if (!string.IsNullOrEmpty(json))
+        {
+            try
+            {
+                usuario = JsonSerializer.Deserialize<UsuarioDTO>(json);
+            }
+            catch
+            {
+                // Se der erro, limpa o localStorage (opcional)
+                await JS.InvokeVoidAsync("localStorage.removeItem", "usuario");
+            }
+        }
+    }
+}

@@ -1,10 +1,10 @@
 ﻿// Serviço responsável por gerar tokens JWT para autenticação
 
-using AcessoSeguro.Models; // Model 'Usuario' usado na geração do token
-using Microsoft.IdentityModel.Tokens; // Tipos para segurança e criptografia do token
 using System.IdentityModel.Tokens.Jwt; // Manipulação de tokens JWT
 using System.Security.Claims; // Uso de claims (informações do usuário no token)
 using System.Text; // Para codificação da chave secreta
+using AcessoSeguro.Models; // Model 'Usuario' usado na geração do token
+using Microsoft.IdentityModel.Tokens; // Tipos para segurança e criptografia do token
 
 namespace AcessoSeguro.Services
 {

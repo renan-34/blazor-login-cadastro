@@ -1,9 +1,9 @@
 ﻿// Controlador de Usuários com comentários explicativos
+using System.Security.Claims;
 using AcessoSeguro.Models;
 using AcessoSeguro.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
 
 namespace AcessoSeguro.Controllers
 {

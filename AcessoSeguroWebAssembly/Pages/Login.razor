@@ -14,7 +14,14 @@
     <!-- Exibe mensagem de erro se houver -->
     @if (!string.IsNullOrEmpty(erro))
     {
-        <div class="text-error">@erro</div>
+        @if (erro.Equals("Credenciais inválidas"))
+        {
+            <div class="text-error">Credenciais inválidas.</div>
+        }
+        else
+        {
+            <div class="text-error">@erro</div>
+        }
     }
 
     <!-- Formulário de login com validação -->
@@ -22,20 +29,21 @@
         <DataAnnotationsValidator />    <!-- Ativa a validação baseada nos atributos do modelo -->
         <ValidationSummary />           <!-- Lista todos os erros de validação, se houver -->
         <!-- Campo de email com ícone -->
+        
         <div class="input-icon">
             <i class="oi oi-envelope-closed"></i> <!-- Ícone de email -->
             <InputText @bind-Value="loginDto.Email"
-                       class="input"
-                       placeholder="Email" />
+            class="input"
+            placeholder="Email" />
         </div>
 
         <!-- Campo de senha com ícone -->
         <div class="input-icon">
             <i class="oi oi-lock-locked"></i> <!-- Ícone de cadeado (senha) -->
             <InputText @bind-Value="loginDto.Senha"
-                       type="password"
-                       class="input"
-                       placeholder="Senha" />
+            type="password"
+            class="input"
+            placeholder="Senha" />
         </div>
 
         <!-- Botão de login -->
@@ -63,8 +71,8 @@
     // Método chamado ao submeter o formulário com dados válidos
     private async Task HandleLogin()
     {
-        var sucesso = await AuthService.LoginAsync(loginDto); // Envia os dados para autenticação
-
+        var (sucesso, mensagem) = await AuthService.LoginAsync(loginDto); // Envia os dados para autenticação
+        erro = "";
         if (sucesso)
         {
             // Se o login for bem-sucedido, redireciona com base no tipo de usuário
@@ -75,12 +83,13 @@
             else if (tipo == "usuario")
                 NavigationManager.NavigateTo("/dashboard"); // Redireciona para dashboard do usuário
             else
-                NavigationManager.NavigateTo("/"); // Redireciona para página inicial por padrão
+                NavigationManager.NavigateTo("/usuarioHome"); // Redireciona para página inicial por padrão
         }
         else
         {
             // Se o login falhar, exibe mensagem de erro
-            erro = "Email ou senha inválidos.";
+            //erro = "Email ou senha inválidos.";
+            erro = mensagem;
         }
     }
 }

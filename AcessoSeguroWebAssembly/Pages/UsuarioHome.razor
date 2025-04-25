@@ -1,0 +1,21 @@
+﻿@page "/usuarioHome"
+@using AcessoSeguroWebAssembly.Models
+
+<div class="topo-usuario d-flex align-items-center justify-content-between p-2 shadow-sm bg-white"
+     style="position: sticky; top: 0; z-index: 1000;">
+    <div class="d-flex align-items-center">
+        <img src="@FotoPerfil" alt="Foto do usuário" class="rounded-circle me-3"
+             style="width: 50px; height: 50px; object-fit: cover;" />
+        <div>
+            <strong>@UsuarioLogado?.Nome</strong><br />
+            <small>@UsuarioLogado?.Email</small>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public UsuarioDTO? UsuarioLogado { get; set; }
+
+    private string FotoPerfil => "img/perfil-padrao.jpg";
+}

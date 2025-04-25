@@ -1,10 +1,10 @@
 ﻿// Importação dos namespaces necessários para a aplicação
+using System.Text;                            // Para codificar a chave JWT
 using AcessoSeguro.Components;                 // Componentes Razor do projeto
 using AcessoSeguro.Services;                  // Serviços personalizados (ex: autenticação)
 using Microsoft.AspNetCore.Authentication.JwtBearer; // Middleware para autenticação JWT
 using Microsoft.IdentityModel.Tokens;         // Validação e geração de tokens JWT
 using Microsoft.OpenApi.Models;               // Swagger para documentação da API
-using System.Text;                            // Para codificar a chave JWT
 
 // Cria o builder da aplicação Web
 var builder = WebApplication.CreateBuilder(args);
@@ -47,7 +47,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("PermitirFrontend", policy =>
     {
-                              //front                  // swagger/backend
+        //front                  // swagger/backend
         // policy.WithOrigins( "https://localhost:7037", "https://localhost:7172/")
         policy.WithOrigins("http://localhost:5260", "https://localhost:7037", "https://localhost:7172")
                // Permite requisições apenas desse endereço (Blazor WASM)

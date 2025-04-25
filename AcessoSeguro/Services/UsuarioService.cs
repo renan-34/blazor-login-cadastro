@@ -1,8 +1,8 @@
 ﻿// Importações de namespaces necessários
-using AcessoSeguro.Models; // Modelos de dados da aplicação
-using Microsoft.AspNetCore.Cryptography.KeyDerivation; // Para gerar hash da senha com PBKDF2
 using System.Data.SqlClient; // Para acesso ao SQL Server
 using System.Security.Cryptography; // Para geração de salt aleatório
+using AcessoSeguro.Models; // Modelos de dados da aplicação
+using Microsoft.AspNetCore.Cryptography.KeyDerivation; // Para gerar hash da senha com PBKDF2
 
 namespace AcessoSeguro.Services
 {
@@ -92,7 +92,7 @@ namespace AcessoSeguro.Services
                 return null; // Usuário não encontrado
 
             await reader.ReadAsync();
-
+            var nome = reader["Nome"].ToString();
             // Verifica se o hash da senha corresponde ao digitado
             var senhaHashSalva = reader["SenhaHash"].ToString();
             if (senhaHashSalva == null || !VerificarSenha(senha, senhaHashSalva))
